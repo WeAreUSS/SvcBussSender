@@ -57,11 +57,11 @@ namespace SBReceiver
             // Process the message. My Version
             var messageBody = Encoding.UTF8.GetString(message.Body);
             PersonModel person = JsonSerializer.Deserialize<PersonModel>(messageBody);
-            Console.WriteLine("Received message:");
-            Console.WriteLine("SequenceNumber:" + message.SystemProperties.SequenceNumber);
+            Console.WriteLine("* Received Message *");
+            Console.WriteLine("SequenceNumber: " + message.SystemProperties.SequenceNumber);
             Console.WriteLine("============================= Start of Message  ==============");
-            Console.WriteLine("First Name:" + person.FirstName);
-            Console.WriteLine("Last Name:" + person.LastName);
+            Console.WriteLine("First Name: " + person.FirstName);
+            Console.WriteLine("Last Name: " + person.LastName);
             Console.WriteLine("============================= End of Message  ==============");
 
             // Process the message. Original Version
@@ -81,7 +81,7 @@ namespace SBReceiver
         {
             Console.WriteLine($"Message handler encountered an exception {exceptionReceivedEventArgs.Exception}.");
             var context = exceptionReceivedEventArgs.ExceptionReceivedContext;
-            Console.WriteLine("Exception context for troubleshooting:");
+            Console.WriteLine("Exception context for troubleshooting: ");
             Console.WriteLine($"- Endpoint: {context.Endpoint}");
             Console.WriteLine($"- Entity Path: {context.EntityPath}");
             Console.WriteLine($"- Executing Action: {context.Action}");
