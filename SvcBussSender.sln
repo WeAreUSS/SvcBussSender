@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvcBussSender", "SvcBussSender\SvcBussSender.csproj", "{E956D41A-E597-4C3C-8B82-242138D94AB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBShared", "SBShared\SBShared.csproj", "{CF9AE3B3-CFB4-4A07-8673-78D3CB3B9532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBReceiver", "SBReceiver\SBReceiver.csproj", "{E697F19B-1B0E-4846-84D9-9A579F4A76D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E956D41A-E597-4C3C-8B82-242138D94AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E956D41A-E597-4C3C-8B82-242138D94AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E956D41A-E597-4C3C-8B82-242138D94AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9AE3B3-CFB4-4A07-8673-78D3CB3B9532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9AE3B3-CFB4-4A07-8673-78D3CB3B9532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9AE3B3-CFB4-4A07-8673-78D3CB3B9532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9AE3B3-CFB4-4A07-8673-78D3CB3B9532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E697F19B-1B0E-4846-84D9-9A579F4A76D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E697F19B-1B0E-4846-84D9-9A579F4A76D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E697F19B-1B0E-4846-84D9-9A579F4A76D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E697F19B-1B0E-4846-84D9-9A579F4A76D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
